@@ -1,0 +1,259 @@
+﻿
+@import "_header.scss";
+@import "_footer.scss";
+
+body {
+    width: 85%;
+    margin: auto;
+    background-color: #f4f5f5;
+
+    .Blue_Headline {
+        color: #00d6dd;
+        text-align: center;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 3.5rem;
+        margin-bottom: 4rem;
+    }
+
+    main {
+        //index start
+        .main_banner {
+            width: 100%;
+            position: relative;
+            text-align: center;
+            color: #707070;
+            margin-bottom: 2rem;
+
+            .main_banner_img {
+                width: 100%;
+            }
+
+            .main_Banner_Box {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                background-color: rgba(221,227,234,0.85);
+                padding: 12px 4rem;
+
+                h1 {
+                    color: #707070;
+                    font-size: 70px;
+                    margin-bottom: 1rem;
+                }
+
+                h3 {
+                    display: inline;
+                }
+                //.Blue_Headline {
+                //    color: #00d6dd;
+                // }
+            }
+        }
+
+        .Blue_Headline {
+            color: #00d6dd;
+        }
+
+        .udvalg_gruppe {
+            display: flex;
+            justify-content: space-between;
+
+            .img_Box {
+                width: 32.5%;
+
+
+                a {
+                    display: block;
+                    color: #707070;
+                    font-weight: bold;
+
+                    img {
+                        width: 100%;
+                        border: 1px solid #00d6dd;
+                        margin-bottom: 1rem;
+                        height: 500px;
+                    }
+
+                    div {
+                        display: flex;
+                        justify-content: space-between;
+
+                        p {
+                        }
+
+                        .blue_text {
+                            color: #00d6dd;
+                        }
+                    }
+                }
+
+                a:hover {
+                    text-decoration: none;
+                }
+            }
+        }
+
+        .button_wrap {
+            display: flex;
+            justify-content: center;
+            margin: 2rem;
+
+            .button_link {
+                color: #707070;
+                font-weight: bold;
+                background-color: #00d6dd;
+                padding: 10px 14px;
+                //width: 20%;
+                text-align: center;
+                font-size: 12px;
+            }
+        }
+        //index slut
+        //katalog start
+        .Katalog_wrap {
+            display: flex;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            height: 100%;
+
+            .Katalog_box {
+                width: 22%;
+                margin: 24px;
+
+                a {
+                    display: block;
+                    color: #707070;
+                    font-weight: bold;
+
+                    img {
+                        width: 100%;
+                        border: 1px solid #00d6dd;
+                        margin-bottom: 1rem;
+                    }
+
+                    div {
+                        display: flex;
+                        flex-direction: column;
+
+                        p {
+                            margin-bottom: 0.5rem;
+                        }
+
+                        .blue_text {
+                            color: #00d6dd;
+                        }
+                    }
+                }
+            }
+        }
+
+        .button_wrap {
+            display: flex;
+            justify-content: center;
+            margin: 2rem;
+
+            button {
+                color: white;
+                font-weight: bold;
+                background-color: #707070;
+                padding: 10px 14px;
+                text-align: center;
+                font-size: 12px;
+                margin: auto;
+                width: 18%;
+                border: none;
+            }
+        }
+        //katalog slut
+        //TojInfo start
+        .description, .text_column {
+            width: 65%;
+            background-color: white;
+            margin: auto;
+            padding: 25px;
+            margin-bottom: 5rem;
+
+            p {
+                font-size: 14px;
+                color: #707070;
+            }
+        }
+
+        .image_display {
+            display: flex;
+            justify-content: center;
+
+            img {
+                width: 30%;
+                margin-bottom: 1rem;
+                margin: 5px;
+            }
+        }
+        //TojInfo slut
+        //Om os start
+        .text_column {
+            column-count: 2;
+        }
+
+        .two_images {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+
+            img {
+                width: 50%;
+                margin: 15px;
+            }
+        }
+        //Om os slut
+        //kontakt start
+        .kontakt_wrapper {
+            width: 80%;
+            margin: auto;
+
+            p {
+                font-size: 14px;
+                color: #707070;
+            }
+
+            form {
+                display: flex;
+                flex-direction: column;
+
+                input[type=text] {
+                    width: 45%;
+                    padding: 12px;
+                    border: 1px solid #00d6dd;
+                    margin-top: 6px;
+                    margin-bottom: 16px;
+                    resize: vertical
+                }
+
+                textarea {
+                    width: 75%;
+                    margin-top: 6px;
+                    margin-bottom: 16px;
+                    padding: 12px;
+                    border: 1px solid #00d6dd;
+                    height: 200px;
+                }
+
+                input[type=submit] {
+                    background-color: #00d6dd;
+                    color: #707070;
+                    padding: 12px 20px;
+                    border: none;
+                    cursor: pointer;
+                    width: 15%;
+                    font-weight: bold;
+                }
+            }
+        }
+        //kontakt slut
+    }
+    //main slut
+}

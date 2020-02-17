@@ -1,0 +1,50 @@
+﻿
+
+body {
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+        height: auto;
+        bottom: 0;
+        background-color: #b1b1b1;
+        margin-top: 5rem;
+
+        div {
+            text-align: center;
+
+            .logo {
+                width: 100px;
+                height: 80px;
+                margin: 20px;
+               
+            }
+
+            .footer_middel_paragraf{
+                font-size: 12px;
+            }
+
+            div {
+                text-align: center;
+                margin: 20px;
+                margin-top: 40px;
+
+                h4 {
+                }
+
+                p {
+                }
+            }
+        }
+
+        .footer_sides {
+            display: flex;
+            align-items: center;
+            width: 20%;
+        }
+
+        .footer_middel{
+            width: 30%;
+        }
+    }
+}

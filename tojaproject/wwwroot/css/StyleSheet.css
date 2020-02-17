@@ -1,0 +1,221 @@
+body Header {
+  display: flex;
+  justify-content: space-between;
+  height: 120px; }
+  body Header .logo {
+    width: 100px;
+    height: 80px;
+    margin-top: 20px; }
+  body Header nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    height: 100%; }
+    body Header nav ul li a {
+      text-decoration: none;
+      color: #707070;
+      margin: 25px;
+      font-size: 18px; }
+    body Header nav ul li a:active {
+      color: #00d6dd; }
+    body Header nav ul li a:hover {
+      color: #00d6dd;
+      text-decoration: none;
+      border: 2px; }
+  body Header ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    height: 100%; }
+    body Header ul li i {
+      color: #00d6dd;
+      font-size: 28px;
+      margin: 5px; }
+
+body footer {
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+  bottom: 0;
+  background-color: #b1b1b1;
+  margin-top: 5rem; }
+  body footer div {
+    text-align: center; }
+    body footer div .logo {
+      width: 100px;
+      height: 80px;
+      margin: 20px; }
+    body footer div .footer_middel_paragraf {
+      font-size: 12px; }
+    body footer div div {
+      text-align: center;
+      margin: 20px;
+      margin-top: 40px; }
+  body footer .footer_sides {
+    display: flex;
+    align-items: center;
+    width: 20%; }
+  body footer .footer_middel {
+    width: 30%; }
+
+body {
+  width: 85%;
+  margin: auto;
+  background-color: #f4f5f5; }
+  body .Blue_Headline {
+    color: #00d6dd;
+    text-align: center; }
+  body h1 {
+    text-align: center;
+    font-size: 3.5rem;
+    margin-bottom: 4rem; }
+  body main .main_banner {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    color: #707070;
+    margin-bottom: 2rem; }
+    body main .main_banner .main_banner_img {
+      width: 100%; }
+    body main .main_banner .main_Banner_Box {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: rgba(221, 227, 234, 0.85);
+      padding: 12px 4rem; }
+      body main .main_banner .main_Banner_Box h1 {
+        color: #707070;
+        font-size: 70px;
+        margin-bottom: 1rem; }
+      body main .main_banner .main_Banner_Box h3 {
+        display: inline; }
+  body main .Blue_Headline {
+    color: #00d6dd; }
+  body main .udvalg_gruppe {
+    display: flex;
+    justify-content: space-between; }
+    body main .udvalg_gruppe .img_Box {
+      width: 32.5%; }
+      body main .udvalg_gruppe .img_Box a {
+        display: block;
+        color: #707070;
+        font-weight: bold; }
+        body main .udvalg_gruppe .img_Box a img {
+          width: 100%;
+          border: 1px solid #00d6dd;
+          margin-bottom: 1rem;
+          height: 500px; }
+        body main .udvalg_gruppe .img_Box a div {
+          display: flex;
+          justify-content: space-between; }
+          body main .udvalg_gruppe .img_Box a div .blue_text {
+            color: #00d6dd; }
+      body main .udvalg_gruppe .img_Box a:hover {
+        text-decoration: none; }
+  body main .button_wrap {
+    display: flex;
+    justify-content: center;
+    margin: 2rem; }
+    body main .button_wrap .button_link {
+      color: #707070;
+      font-weight: bold;
+      background-color: #00d6dd;
+      padding: 10px 14px;
+      text-align: center;
+      font-size: 12px; }
+  body main .Katalog_wrap {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    height: 100%; }
+    body main .Katalog_wrap .Katalog_box {
+      width: 22%;
+      margin: 24px; }
+      body main .Katalog_wrap .Katalog_box a {
+        display: block;
+        color: #707070;
+        font-weight: bold; }
+        body main .Katalog_wrap .Katalog_box a img {
+          width: 100%;
+          border: 1px solid #00d6dd;
+          margin-bottom: 1rem; }
+        body main .Katalog_wrap .Katalog_box a div {
+          display: flex;
+          flex-direction: column; }
+          body main .Katalog_wrap .Katalog_box a div p {
+            margin-bottom: 0.5rem; }
+          body main .Katalog_wrap .Katalog_box a div .blue_text {
+            color: #00d6dd; }
+  body main .button_wrap {
+    display: flex;
+    justify-content: center;
+    margin: 2rem; }
+    body main .button_wrap button {
+      color: white;
+      font-weight: bold;
+      background-color: #707070;
+      padding: 10px 14px;
+      text-align: center;
+      font-size: 12px;
+      margin: auto;
+      width: 18%;
+      border: none; }
+  body main .description, body main .text_column {
+    width: 65%;
+    background-color: white;
+    margin: auto;
+    padding: 25px;
+    margin-bottom: 5rem; }
+    body main .description p, body main .text_column p {
+      font-size: 14px;
+      color: #707070; }
+  body main .image_display {
+    display: flex;
+    justify-content: center; }
+    body main .image_display img {
+      width: 30%;
+      margin-bottom: 1rem;
+      margin: 5px; }
+  body main .text_column {
+    column-count: 2; }
+  body main .two_images {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; }
+    body main .two_images img {
+      width: 50%;
+      margin: 15px; }
+  body main .kontakt_wrapper {
+    width: 80%;
+    margin: auto; }
+    body main .kontakt_wrapper p {
+      font-size: 14px;
+      color: #707070; }
+    body main .kontakt_wrapper form {
+      display: flex;
+      flex-direction: column; }
+      body main .kontakt_wrapper form input[type=text] {
+        width: 45%;
+        padding: 12px;
+        border: 1px solid #00d6dd;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical; }
+      body main .kontakt_wrapper form textarea {
+        width: 75%;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        padding: 12px;
+        border: 1px solid #00d6dd;
+        height: 200px; }
+      body main .kontakt_wrapper form input[type=submit] {
+        background-color: #00d6dd;
+        color: #707070;
+        padding: 12px 20px;
+        border: none;
+        cursor: pointer;
+        width: 15%;
+        font-weight: bold; }
+
+/*# sourceMappingURL=StyleSheet.css.map */

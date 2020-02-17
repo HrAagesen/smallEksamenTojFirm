@@ -1,0 +1,84 @@
+body Header {
+  display: flex;
+  justify-content: space-between;
+  height: 120px; }
+  body Header .logo {
+    width: 100px;
+    height: 80px;
+    margin-top: 20px; }
+  body Header nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    height: 100%; }
+    body Header nav ul li a {
+      text-decoration: none;
+      color: #707070;
+      margin: 25px;
+      font-size: 18px; }
+    body Header nav ul li a:active {
+      color: #00d6dd; }
+    body Header nav ul li a:hover {
+      color: #00d6dd;
+      text-decoration: none;
+      border: 2px; }
+  body Header ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    height: 100%; }
+    body Header ul li i {
+      color: #00d6dd;
+      font-size: 28px;
+      margin: 5px; }
+
+body footer {
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+  bottom: 0;
+  background-color: #b1b1b1; }
+  body footer div {
+    text-align: center; }
+    body footer div .logo {
+      width: 100px;
+      height: 80px;
+      margin: 20px; }
+    body footer div .footer_middel_paragraf {
+      font-size: 12px; }
+    body footer div div {
+      text-align: center;
+      margin: 20px;
+      margin-top: 40px; }
+  body footer .footer_sides {
+    display: flex;
+    align-items: center;
+    width: 15%; }
+  body footer .footer_middel {
+    width: 30%; }
+
+body {
+  width: 85%;
+  margin: auto; }
+  body main .main_banner {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    color: white; }
+    body main .main_banner .main_banner_img {
+      width: 100%; }
+    body main .main_banner .main_Banner_Box {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%); }
+      body main .main_banner .main_Banner_Box .Blue_Headline {
+        color: #00d6dd; }
+  body main h1 {
+    text-align: center;
+    color: #00d6dd; }
+  body main div div img {
+    width: 25%;
+    border: 1px solid #00d6dd; }
+
+/*# sourceMappingURL=sassStyle.css.map */

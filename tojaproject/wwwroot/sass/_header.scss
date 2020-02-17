@@ -1,0 +1,68 @@
+﻿
+
+
+body {
+
+    Header {
+        display: flex;
+        justify-content: space-between;
+        height: 120px;
+
+
+        .logo {
+            width: 100px;
+            height: 80px;
+            margin-top: 20px;
+        }
+
+        nav {
+
+
+            ul {
+                list-style: none;
+                display: flex;
+                align-items: center;
+                height: 100%;
+
+
+                li {
+
+
+                    a {
+                        text-decoration: none;
+                        color: #707070;
+                        margin: 25px;
+                        font-size: 18px;
+                    }
+
+                    a:active {
+                        color: #00d6dd;
+                    }
+
+                    a:hover {
+                        color: #00d6dd;
+                        text-decoration: none;
+                        border: 2px;
+                    }
+                }
+            }
+        }
+
+        ul {
+            list-style: none;
+            display: flex;
+            align-items: center;
+            height: 100%;
+
+            li {
+
+                i {
+                    color: #00d6dd;
+                    font-size: 28px;
+                    margin: 5px;
+                }
+            }
+        }
+    }
+    //header slut
+}

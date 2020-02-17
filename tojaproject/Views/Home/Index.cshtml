@@ -1,0 +1,54 @@
+﻿@{
+    ViewData["Title"] = "Forside";
+}
+
+<main>
+
+    <div class="main_banner">
+        <img class="main_banner_img" src="~/img/banner_forside.PNG" alt="Forside banner" />
+        <div class="main_Banner_Box">
+            <h1>Udsalg - slutspurt</h1>
+            <h3 class="Blue_Headline">50%</h3><h3> RABAT PÅ ALT</h3>
+        </div>
+    </div>
+
+    <h1 class="Blue_Headline">Udvalgte tilbud</h1>
+
+    <div class="udvalg_gruppe">
+        <div class="img_Box">
+            <a asp-area="" asp-controller="Home" asp-action="TojInfo">
+                <img src="~/img/frakkesort1.png" />
+                <div>
+                    <p>Tøj 1</p>
+                    <p class="blue_text"> 200 kr.</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="img_Box">
+            <a asp-area="" asp-controller="Home" asp-action="TojInfo">
+                <img src="~/img/skjorteblue1.png" />
+                <div>
+                    <p>Tøj 2</p>
+                    <p class="blue_text"> 100 kr.</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="img_Box">
+            <a asp-area="" asp-controller="Home" asp-action="TojInfo">
+                <img src="~/img/trojehvid1.png" />
+                <div>
+                    <p>Tøj 3</p>
+                    <p class="blue_text"> 150 kr.</p>
+                </div>
+            </a>
+        </div>
+
+    </div>
+
+    <div class="button_wrap">
+    <a class="button_link" asp-area="" asp-controller="Home" asp-action="Katalog">SE VORES ONLINE KATALOG</a>
+        </div>
+
+</main>
